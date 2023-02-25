@@ -1,0 +1,71 @@
+.flexRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 40px;
+    border: lightgray 1px solid;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.flexRowSelection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.receita {
+    color: green;
+    font-weight: bold;
+}
+
+.despesa {
+    color: red;
+    font-weight: bold;
+}
+
+.flexRowTransaction {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.flexRowLeft {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    margin-left: 10px;
+}
+
+
+.flexRowRight {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.borderModal {
+    border: lightgray 1px solid;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

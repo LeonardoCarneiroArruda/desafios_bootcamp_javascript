@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Pesquisa de Usuários</h1>    
+            <div class="linha">
+                <input id="input" type="text" placeholder="Busca" />
+                <button class="btn" id="button"> Buscar </button>
+            </div>    
+    
+        <div class="linha">
+            <div class="box">
+                <h3 id="titleDivUsers"> <span ></span> Nenhum usuário filtrado</h3>
+                <div id="divUsers">
+                           
+                </div>
+            </div>
+
+            <div class="box" id="divEstatisticas">
+                <h3 id="titleDivEstatisticas">Estatísticas</h3>
+                <div class="conteudo">
+                    <p>Sexo masculino: <span id="QtdSexoMasculino"></span></p>
+                    <p>Sexo Feminino: <span id="QtdSexoFeminino"></span> </p>
+                    <p>Soma das idades: <span id="SomaDasIdades"></span> </p>
+                    <p>Média das idades: <span id="MediaDasIdades"></span> </p>
+                </div>    
+            </div>
+            
+        </div>
+
+    </div>
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
